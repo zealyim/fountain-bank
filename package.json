@@ -1,0 +1,12 @@
+{
+	"name": "client",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"concurrently": "^4.1.0"
+	},
+	"scripts": {
+		"heroku-postbuild": "cd server && npm install && cd client && npm install",
+		"start": "cd server && cd client && npm run build && cd .. && npm start"
+	}
+}

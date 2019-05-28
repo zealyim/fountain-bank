@@ -1,0 +1,37 @@
+GET api/account/summary
+res
+[
+    {
+        "_id": "5ceb8c08b85e0e2390f7d536",
+        "userId": "5ceb65243eccc737a4377ad5",
+        "accountType": "Saving",
+        "balance": 19384.23,
+        "__v": 0
+    },
+    {
+        "_id": "5ceb8c47b85e0e2390f7d537",
+        "userId": "5ceb65243eccc737a4377ad5",
+        "accountType": "Chequing",
+        "balance": 2345.12,
+        "__v": 0
+    }
+]
+
+POST /api/account/create
+req
+{
+	"user" : {"id":<userID>},
+	"account" : {
+        "type":<Saving/Chequing>, 
+        "balance": <Number>
+    }
+}
+res
+{
+    "_id": "5ceb8c47b85e0e2390f7d537",
+    "userId": "5ceb65243eccc737a4377ad5",
+    "accountType": "Chequing",
+    "balance": 2345.12,
+    "__v": 0
+}
+
