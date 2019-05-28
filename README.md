@@ -1,6 +1,9 @@
 # fountain-bank
 
+a MERN stack application minicking the process to enroll on to online banking. Fountain Bank allows user to create an account. When user login to the application, a summary page is displayed to list out all the bank accounts under the user account.
+
 APIs
+
 POST /api/user/register
 req:
 {
