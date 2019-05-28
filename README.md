@@ -19,7 +19,7 @@ Note: this account has two bank accounts
 Name: Tommy Yienaer
 Client Card number: 7182392413294123
 Password: TestPassword
-Note: this account has no bank accounts
+Note: this account has no bank account
 
 
 # How to run this app locally
@@ -31,7 +31,7 @@ Note: this account has no bank accounts
 6. Open up a brower and navigate to localhost:3000
 
 # APIs
-
+---
 POST /api/user/register
 req:
 {
@@ -48,7 +48,7 @@ res:
   pan: text,
   password: text
 }
-
+---
 POST /api/user/login
 req:
 {
@@ -61,7 +61,7 @@ res:
   success: boolean,
   token: text
 }
-
+---
 GET /api/account/summary
 res:
 {
