@@ -3,8 +3,8 @@
 a MERN stack application mimicking the process to enroll on to online banking. Fountain Bank allows user to create an account. At the time when a user account is created, a saving account and a chequing account is created for user by default. User can then login to the application, a summary page is displayed to list out all the bank accounts under the user account.
 
 # Cases not cover at the moment
-Session not implemented - backend is ready but not the UI
-Logout button not implemented
+Session not implemented - backend is ready but not the UI.
+Logout button not implemented.
 
 # Online link
 https://stormy-scrubland-62926.herokuapp.com/
